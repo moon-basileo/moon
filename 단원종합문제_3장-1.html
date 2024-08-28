@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>단원종합문제</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('image.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: 40px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .question-container {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .options li {
+            margin: 8px 0;
+        }
+        .submit-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .answer {
+            margin-top: 10px;
+            font-weight: bold;
+            color: green;
+            display: none;
+        }
+        .explanation {
+            margin-top: 5px;
+            padding: 10px;
+            background-color: #fbe9e7;
+            border-left: 6px solid #e57373;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 style="text-align: center;">단원종합문제</h1>
+
+    <div class="question-container">
+        <div class="question-title">1. 지식재산권 침해를 방지하기 위한 방법으로 잘못된 것은?</div>
+        <ul class="options">
+            <li><input type="radio" name="q1" value="1">① 특허청에 지식재산권을 출원하여 등록을 통해 공식적으로 인정받는다.</li>
+            <li><input type="radio" name="q1" value="2">② 지식재산권을 침해당했을 때 대처할 수 있는 민·형사상 방안을 마련해 둔다.</li>
+            <li><input type="radio" name="q1" value="3">③ 지식재산권 침해가 발견되면 즉시 경고를 하고 사용중지를 요청한다.</li>
+            <li><input type="radio" name="q1" value="4">④ 발명 이후 제품을 시장에 출시하여 소비자들로부터 인정을 받는다.</li>
+        </ul>
+        <div class="answer">정답: ④</div>
+        <div class="explanation">우리나라는 선출원주의를 채택하고 있으므로 먼저 출원하여 등록 받은 사람에게 그 권리를 인정해 준다.</div>
+    </div>
+
+    <div class="question-container">
+        <div class="question-title">2. 저작권의 보호기간에 대한 설명으로 잘못된 것은?</div>
+        <ul class="options">
+            <li><input type="radio" name="q2" value="1">① 영상저작물의 저작재산권은 공표한 때부터 70년간 존속한다.</li>
+            <li><input type="radio" name="q2" value="2">② 공동저작물의 저작재산권은 맨 먼저 사망한 저작자가 사망한 후 70년간 존속한다.</li>
+            <li><input type="radio" name="q2" value="3">③ 무명 또는 널리 알려지지 아니한 이명이 표시된 저작물의 저작재산권은 공표된 때부터 70년 간 존속한다.</li>
+            <li><input type="radio" name="q2" value="4">④ 저작권은 저작권법에 다른 특별한 규정이 있는 경우를 제외하고는 저작자가 생존하는 동안과 사망 후 70년간 존속한다.</li>
+        </ul>
+        <div class="answer">정답: ②</div>
+        <div class="explanation">공동저작물의 저작재산권은 맨 마지막으로 사망한 저작자가 사망한 후 70년간 존속한다.</div>
+    </div>
+
+    <div class="question-container">
+        <div class="question-title">3. 특허권의 존속기간은 특허권을 설정등록한 날부터 특허출원일 후 ( )년이 되는 날까지이다. ( )에 들어갈 알맞은 숫자는?</div>
+        <ul class="options">
+            <li><input type="radio" name="q3" value="1">① 5</li>
+            <li><input type="radio" name="q3" value="2">② 10</li>
+            <li><input type="radio" name="q3" value="3">③ 20</li>
+            <li><input type="radio" name="q3" value="4">④ 30</li>
+        </ul>
+        <div class="answer">정답: ③</div>
+        <div class="explanation">특허권의 존속기간은 특허권을 설정등록한 날부터 특허출원일 후 20년이 되는 날까지이다.</div>
+    </div>
+
+    <div class="question-container">
+        <div class="question-title">4. 영업비밀 침해행위에 대한 설명으로 올바른 것은?</div>
+        <ul class="options">
+            <li><input type="radio" name="q4" value="1">① 영업비밀 침해행위 금지는 침해행위자가 공정한 경쟁자보다 우월한 위치에서 부당하게 이익을 취하지 못하도록 한다.</li>
+            <li><input type="radio" name="q4" value="2">② 영업비밀 침해행위 금지는 이미 일어난 침해에 대해서는 구제하지 못한다.</li>
+            <li><input type="radio" name="q4" value="3">③ 영업비밀 침해행위 금지는 따로 영업비밀 보호기간의 범위를 두지 않는다.</li>
+            <li><input type="radio" name="q4" value="4">④ 영업비밀 침해행위 금지는 금지기간을 장기간으로 설정하는 경우가 많다.</li>
+        </ul>
+        <div class="answer">정답: ①</div>
+        <div class="explanation">영업비밀 침해금지의 목적은 영업비밀 보유자로 하여금 그러한 침해가 없었더라면 원래 있었을 위치로 되돌아갈 수 있게 하는 데에 있다.</div>
+    </div>
+
+    <div class="question-container">
+        <div class="question-title">5. 지식기반 경제에 대한 설명으로 잘못된 것은?</div>
+        <ul class="options">
+            <li><input type="radio" name="q5" value="1">① 정보기술이 발달하고 정보사회에서 지식과 정보가 경제에서 차지하는 중요성이 강조됨에 따라 지식기반 경제라는 개념이 생겨났다.</li>
+            <li><input type="radio" name="q5" value="2">② 지식기반 경제란 지식과 정보의 생산, 분배 및 이용에 직접적으로 기초한 경제를 말한다.</li>
+            <li><input type="radio" name="q5" value="3">③ 경제성장의 요소로서 지식기반 경제에서는 노동, 자본, 자원을 강조한다.</li>
+            <li><input type="radio" name="q5" value="4">④ 지식기반 경제에서 지식은 기술과 정보를 포함한 지적 능력과 아이디어를 총칭한다.</li>
+        </ul>
+        <div class="answer">정답: ③</div>
+        <div class="explanation">경제성장의 요소로서 노동, 자본, 자원을 강조하는 고전적 경제이론과 달리 지식기반 경제에서는 지식의 역할이 강조된다.</div>
+    </div>
+
+    <div class="question-container">
+        <div class="question-title">6. 특허침해 사전 검토에 대한 설명으로 잘못된 것은?</div>
+        <ul class="options">
+            <li><input type="radio" name="q6" value="1">① 기업이 새로운 제품 또는 서비스를 출시하는 경우 사전에 그 준비 단계에서부터 특허침해 여부 판단에 많은 노력을 기울여야 한다.</li>
+            <li><input type="radio" name="q6" value="2">② 기업은 새로운 제품을 출시한 이후 특허침해 방지를 위해 회피설계 여부에 대한 검토를 시작해야 한다.</li>
+            <li><input type="radio" name="q6" value="3">③ 기업이 새로운 제품 출시를 준비하는 경우 해당 제품과 관련된 선행 기술을 조사하여 출시할 제품이 타인의 특허권을 침해하지는 않는지 여부를 검토해야 한다.</li>
+            <li><input type="radio" name="q6" value="4">④ 만약 출시할 제품이 타인의 특허권을 침해할 가능성이 있다면, 해당 선행 특허권의 무효 여부 및 출시할 제품이 선행 특허권을 침해하지 않도록 확인해야 한다.</li>
+        </ul>
+        <div class="answer">정답: ②</div>
+        <div class="explanation">기업은 만약 출시할 제품이 타인의 특허권을 침해할 가능성이 있다면, 출시할 제품이 선행 특허권을 침해하지 않도록 회피설계할 수 있는지 여부를 반드시 확인할 필요가 있다.</div>
+    </div>
+
+    <div class="question-container">
+        <div class="question-title">7. 상표권 침해 사전 검토 절차이다. 빈칸에 들어갈 절차로 올바른 것은?<br/>"제품출시 준비" "상표 사용 검토" (          ) "사용상표 등록"</div>
+        <ul class="options">
+            <li><input type="radio" name="q7" value="1">① 상품 홍보</li>
+            <li><input type="radio" name="q7" value="2">② 상품 수요조사</li>
+            <li><input type="radio" name="q7" value="3">③ 상품 가격 확정</li>
+            <li><input type="radio" name="q7" value="4">④ 등록상표 조사</li>
+        </ul>
+        <div class="answer">정답: ④</div>
+        <div class="explanation">제품 판매 또는 서비스 제공을 위해 상표 사용 검토 과정에서 상표적 사용에 해당하는지 여부를 판단하고 상표적 사용에 해당하는 경우 등록상표의 존재 여부를 조사하는 절차가 반드시 필요하다.</div>
+    </div>
+
+    <button class="submit-btn" onclick="checkAnswers()">전체 채점하기</button>
+</div>
+
+<script>
+    function checkAnswers() {
+        const answers = {
+            q1: "4",
+            q2: "2",
+            q3: "3",
+            q4: "1",
+            q5: "3",
+            q6: "2",
+            q7: "4"
+        };
+
+        Object.keys(answers).forEach((q) => {
+            const selected = document.querySelector(`input[name="${q}"]:checked`);
+            const answerDiv = document.querySelector(`input[name="${q}"]`).closest('.question-container').querySelector('.answer');
+            const explanationDiv = document.querySelector(`input[name="${q}"]`).closest('.question-container').querySelector('.explanation');
+            
+            if (selected && selected.value === answers[q]) {
+                answerDiv.style.color = 'green';
+                answerDiv.innerHTML += " (정답)";
+            } else {
+                answerDiv.style.color = 'red';
+                answerDiv.innerHTML += " (오답)";
+            }
+
+            answerDiv.style.display = 'block';
+            explanationDiv.style.display = 'block';
+        });
+    }
+</script>
+
+</body>
+</html>
